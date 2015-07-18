@@ -1,0 +1,67 @@
+html,body{
+	font-size: 10px;
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:'Roboto Condensed';
+	overflow: hidden;
+	background-color: white;
+	color:#4F5052;
+}
+
+header,footer{
+	position: absolute;
+	z-index: 1;
+	padding: 2rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+header{
+	top:0;
+	left:0;
+}
+footer{
+	right:0;
+	bottom:0;
+}
+a,
+a:link,
+a:visited{
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color:#33779f;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/* SVG SPECIFIC */
+svg{
+	top:0;
+	left:0;
+	position: absolute;
+	overflow: visible;
+}
+svg circle.main{
+	fill: #99d5bc;
+}
+svg circle.child{
+	fill: white;
+	/*opacity: 0.25;*/
+}
+h1,text{
+	font-weight: bold;
+	font-size: 10px;
+	font-family: sans-serif;
+	font-family:'Roboto Condensed';
+	text-transform: uppercase;
+	color:#4F5052;
+	fill:#4F5052;
+}
+h1{
+	font-size: 30px;
+}
+text.sub{
+	font-weight: normal;
+}

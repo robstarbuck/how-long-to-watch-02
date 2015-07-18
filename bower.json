@@ -1,0 +1,20 @@
+{
+  "name": "d3-pack",
+  "version": "0.0.0",
+  "authors": [
+    "Robert Starbuck <robert@ouinon.co>"
+  ],
+  "description": "\"Just having a quick playaround with D3\"",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.6"
+  }
+}
