@@ -15,3 +15,5 @@ chmod +x .git/hooks/post-commit
 - http://oli.jp/2011/github-pages-workflow/
 
 - http://stackoverflow.com/questions/5084100/post-commit-hook-not-running
+
+- test
