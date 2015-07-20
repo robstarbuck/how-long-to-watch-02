@@ -42,10 +42,6 @@ var arrdaysInMonth = [30,11];
 
 var subTextOffset = 25;
 
-var winWidth = window.innerWidth;
-
-var winHeight = window.innerHeight;
-
 var totalHours = function(array){
     return array[0]*24 + array[1];
 }
@@ -57,6 +53,14 @@ var pluralise = function(val){
 var daysToString = function(array){
     return array[0]+' Day'+pluralise(array[0])+', '+array[1] +' Hour'+pluralise(array[1]);
 }
+
+var winWidth = window.innerWidth;
+
+var winHeight = window.innerHeight;
+
+var svg = d3.select("body")
+    .insert("svg")
+    .attr("viewBox","-20 0 "+parseInt(winWidth+40) +" "+winHeight);
 
 var pack = d3.layout.pack()
     .sort(null)
@@ -70,11 +74,6 @@ var pack = d3.layout.pack()
         return winWidth / (30.4375 * 24 * 2) * r;
     })
     .padding(45);
-
-var svg = d3.select("body")
-    .insert("svg:svg")
-    .attr("viewBox","0 0 "+winWidth+" "+winHeight)
-    .attr("perserveAspectRatio","xMinYMid");
 
 var main = svg.append("g");
 
@@ -105,8 +104,6 @@ seriesdata.children.map(function(elem){
 seriesdata.children.sort(function(a,b){
     return b.hours - a.hours;
 });
-
-// debugger;
 
 var groups = svg.append("g").selectAll("circle")
     // If it doesn't have children (ie it's a child, return true)
@@ -140,18 +137,3 @@ groups.insert("text")
         .attr("x", function(d) {return d.x; })
         .attr("y", function(d) {return d.y+subTextOffset; })
         .attr("text-anchor","middle");
-
-// initRepeat, fires once from the closure and is then assigned to updateWindow
-// updateWindow fires on window resize 
-var updateWindow = (function initRepeat(){
-
-    x = window.innerWidth;
-    y = window.innerHeight;
-
-    svg.attr("width",x).attr("height",y);
-
-    return initRepeat;
-
-})();
-
-window.onresize = updateWindow;
