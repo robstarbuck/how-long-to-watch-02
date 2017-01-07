@@ -1,0 +1,6 @@
+- Vertically distribute Hs
+
+DONE
+
+- Vertically distribute boxes
+- Space inner headers

@@ -1,4 +1,8 @@
-## Notes
+## TODO
+
+- Switch items around
+
+## NOTE
 
 - I couldn't get the site to publish because I had included front-matter in this very README file, force of habit.
 

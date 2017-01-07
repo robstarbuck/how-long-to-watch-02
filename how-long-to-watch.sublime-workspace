@@ -1,0 +1,856 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "mar",
+		"selected_items":
+		[
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"find",
+				"Finder: Open here"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syn",
+				"Set Syntax: NAnt Build File"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"strip",
+				"StripHTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Emmet: Remove Tag"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"perm",
+				"Permute Selections: Reverse"
+			],
+			[
+				"mer",
+				"Emmet: Merge Lines"
+			],
+			[
+				"reload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"merge",
+				"Emmet: Merge Lines"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/robertstarbuck/Sites/how-long-to-watch-01"
+	],
+	"file_history":
+	[
+		"/Users/robertstarbuck/Desktop/how-long-to-watch.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.git/COMMIT_EDITMSG",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.gitignore",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/lib/jquery-ui-1.12.1.custom/index.html",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/README.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/README.md",
+		"/Users/robertstarbuck/dotfiles/.dotfiles",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/bower.json",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/tag-menu.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/tag.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/footer.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/scripts.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/main.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/ids.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/article.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/flow.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/page-message.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/tabs.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/page-information.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/form.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/head.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/header.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/color.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/navigation.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/loop.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/header-fixed.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/home.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/body.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/js/contact.js",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/magpie-media.sublime-project",
+		"/Users/robertstarbuck/Dropbox/journal/2016/27 12-28.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/elements/group.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/ids.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/prism-themes/prism-xonokai-ct.scss",
+		"/Users/robertstarbuck/Desktop/not-a-gdoc.gdoc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/page-style-sheet.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/footer-header.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/pagination.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/main.css",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/main.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/form.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/flow.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/body.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/.sass-cache/756fdbad5e5ae079bb87e09854f0b26a323da420/group.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.sass-cache/756fdbad5e5ae079bb87e09854f0b26a323da420/group.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/body.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/flow.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/form.scssc",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.sass-cache/dd85dcfa4ab98d44918bb1535e771de57488edde/main.scssc",
+		"/Users/robertstarbuck/Desktop/Adobe Illustrator CS6/README.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/post.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/page.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/rs.reset.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/default.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/.sass-cache/4799b911767b8e03616f4632e4cfe6b9256eb50f/prism-xonokai-ct.scssc",
+		"/Users/robertstarbuck/Google Drive/dev/elements.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/author.hbs",
+		"/Users/robertstarbuck/Dropbox/journal/2016/25 12-18.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/index.hbs",
+		"/Users/robertstarbuck/Dropbox/career/companies.md",
+		"/Users/robertstarbuck/Dropbox/magpie/infographics/bookmark.md",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upwave.io/hygge/README.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/article-header.hbs",
+		"/Users/robertstarbuck/Desktop/HMRC.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/partials/post.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/media/widths.scss",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/bookmarks.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/flat.hbs",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/docker-compose.yml",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/magpie-blog.sublime-project",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/css/reset.css",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/TODO.md",
+		"/etc/hosts",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/init.sh",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/statistics.md",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/presentation.md",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/TODO.md",
+		"/Users/robertstarbuck/Desktop/greys.md",
+		"/Users/robertstarbuck/Dropbox/magpie/journal/11-28.md",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/colors.md",
+		"/Users/robertstarbuck/Dropbox/magpie/journal/11-23.md",
+		"/Users/robertstarbuck/Dropbox/journal/2016/23 11-23.md",
+		"/Users/robertstarbuck/Desktop/cooking.csv",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/infographic/bookmarks.md",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/competition.md",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/market.md",
+		"/Users/robertstarbuck/Dropbox/magpie/clients/upstream.io/facts-and-quotes.md",
+		"/Users/robertstarbuck/dotfiles/colors/alias.bash",
+		"/Users/robertstarbuck/dotfiles/colors/alias.md",
+		"/Users/robertstarbuck/Sites/docker/magpie-blog-alpine-ghost/themes/magpie/assets/fonts/saltsmill/stylesheet.css",
+		"/Users/robertstarbuck/Desktop/seneca/brev_e.md",
+		"/Users/robertstarbuck/Desktop/seneca/brev_e.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"**hbs",
+			"**scss",
+			"**hbs",
+			"**",
+			"**scss",
+			"**hbs",
+			"**scss",
+			"**hbs",
+			"**",
+			"**scss",
+			"**hbs",
+			"**scss",
+			"**hbs",
+			"**scss",
+			"**hbs",
+			"**scss",
+			"**hbs",
+			"**scss",
+			"**hbs",
+			"",
+			"**scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"                    \n",
+			"```",
+			"{% endhighlight %}",
+			"{% highlight js.*",
+			"{% highlight js",
+			"design",
+			"ignore",
+			"meta_description",
+			"{{> article}}",
+			"pt",
+			"lang",
+			"id",
+			"news",
+			"ol",
+			"hr",
+			"margin-bottom",
+			"red",
+			"height",
+			"margin",
+			"24px",
+			"margin",
+			"block",
+			"header",
+			"-button-",
+			"height",
+			"button",
+			"height",
+			"25",
+			"wd25p",
+			"wd75p",
+			"$base05",
+			"white",
+			".line-under",
+			"article ",
+			"alt",
+			"yourdomain",
+			"storage.",
+			"https:",
+			"@1x",
+			"http",
+			"made-before-magpie/made-before-magpie/",
+			"/Users/robertstarbuck/Desktop/",
+			"desktop",
+			"## ",
+			"(# ",
+			"# http://[^ ]*",
+			"# http://pegr.ouinon.co/",
+			"# http://[^ ]*",
+			"# ",
+			"# http://[^ ]*",
+			"http://",
+			"\"",
+			"# \"http://pegr.ouinon.co/\"",
+			"# \".*\"",
+			"# ",
+			"# \"",
+			"#",
+			"\">",
+			"href",
+			"#",
+			"Pegr",
+			"#",
+			"href",
+			"<div",
+			"main",
+			"article",
+			"ht",
+			"after",
+			"red",
+			"title",
+			"red",
+			"top",
+			"background",
+			"hr",
+			"a",
+			"footer",
+			"tags",
+			"base",
+			"red",
+			"background",
+			"{",
+			"_",
+			"\"_\"",
+			"_",
+			"_input",
+			"focus",
+			"+",
+			"tab_index",
+			"tabs_array",
+			"reaplce",
+			"information",
+			"post",
+			"foreach",
+			"home",
+			"post",
+			"information",
+			"You",
+			"must",
+			"you",
+			"Gents",
+			"page-information",
+			"activate",
+			"\"#tabs\"",
+			"preventDefault",
+			"$footermessage",
+			"message",
+			"foo",
+			"$footer",
+			"contact",
+			"$form",
+			"footer",
+			"foo",
+			"tabs",
+			"selector",
+			"message",
+			"\"",
+			"scroll-top",
+			"square",
+			"scroll-top",
+			"#scroll-top",
+			"scroll-top",
+			"#scroll-top",
+			"hover",
+			"article",
+			"tagsExpandContact",
+			"allow",
+			"action",
+			"valid"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"```",
+			"```js",
+			"-button-",
+			".-",
+			".--",
+			".-",
+			"\\n\\n",
+			"\\n",
+			"",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "how-long-to-watch.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ig",
+				"magpie-blog-alpine-ghost/.gitignore"
+			],
+			[
+				"xml",
+				"magpie/assets/lib/jquery-ui-1.12.1.custom/index.html"
+			],
+			[
+				"art",
+				"magpie/partials/article.hbs"
+			],
+			[
+				"loop",
+				"magpie/partials/loop.hbs"
+			],
+			[
+				"read",
+				"magpie-blog-alpine-ghost/README.md"
+			],
+			[
+				"main",
+				"magpie/assets/css/main.scss"
+			],
+			[
+				"bowr",
+				"magpie/bower.json"
+			],
+			[
+				"m",
+				"magpie/assets/css/main.scss"
+			],
+			[
+				"flow",
+				"magpie/assets/css/flow.scss"
+			],
+			[
+				"ids",
+				"magpie/assets/css/ids.scss"
+			],
+			[
+				"foot",
+				"magpie/partials/footer.hbs"
+			],
+			[
+				"taghe",
+				"magpie/partials/tag-menu.hbs"
+			],
+			[
+				"lo",
+				"magpie/partials/loop.hbs"
+			],
+			[
+				"pabl",
+				"magpie/page-blog.hbs"
+			],
+			[
+				"tag",
+				"magpie/tag.hbs"
+			],
+			[
+				"loo",
+				"magpie/partials/loop.hbs"
+			],
+			[
+				"work",
+				"magpie/tag-work.hbs"
+			],
+			[
+				"grop",
+				"magpie/assets/css/elements/group.scss"
+			],
+			[
+				"grp",
+				"magpie/assets/css/elements/group.scss"
+			],
+			[
+				"tabs",
+				"magpie/partials/tabs.hbs"
+			],
+			[
+				"tab",
+				"magpie/tag.hbs"
+			],
+			[
+				"bower",
+				"magpie/bower.json"
+			],
+			[
+				"scr",
+				"magpie/partials/scripts.hbs"
+			],
+			[
+				"scrp",
+				"magpie/partials/scripts.hbs"
+			],
+			[
+				"head",
+				"magpie/partials/header.hbs"
+			],
+			[
+				"artic",
+				"magpie/partials/article.hbs"
+			],
+			[
+				"col",
+				"magpie/assets/css/color.scss"
+			],
+			[
+				"foo",
+				"magpie/partials/footer.hbs"
+			],
+			[
+				"navi",
+				"magpie/partials/navigation.hbs"
+			],
+			[
+				"form",
+				"magpie/assets/css/form.scss"
+			],
+			[
+				"con",
+				"magpie/assets/js/contact.js"
+			],
+			[
+				"pagemes",
+				"magpie/page-message.hbs"
+			],
+			[
+				"home",
+				"magpie/home.hbs"
+			],
+			[
+				"body",
+				"magpie/assets/css/body.scss"
+			],
+			[
+				"page",
+				"magpie/page-information.hbs"
+			],
+			[
+				"page-mes",
+				"magpie/page-message.hbs"
+			],
+			[
+				"conta",
+				"magpie/assets/js/contact.js"
+			],
+			[
+				"cont",
+				"magpie/assets/js/contact.js"
+			],
+			[
+				"footer",
+				"magpie/partials/footer.hbs"
+			],
+			[
+				"contac",
+				"magpie/assets/js/contact.js"
+			],
+			[
+				"sc",
+				"magpie/partials/scripts.hbs"
+			],
+			[
+				"in",
+				"magpie/page-information.hbs"
+			],
+			[
+				"for",
+				"magpie/assets/css/form.scss"
+			],
+			[
+				"header",
+				"magpie/partials/header.hbs"
+			],
+			[
+				"he",
+				"magpie/partials/header.hbs"
+			],
+			[
+				"id",
+				"magpie/assets/css/ids.scss"
+			],
+			[
+				"grou",
+				"magpie/assets/css/elements/group.scss"
+			],
+			[
+				"ign",
+				"magpie-blog-alpine-ghost/.gitignore"
+			],
+			[
+				"scrip",
+				"magpie/partials/scripts.hbs"
+			],
+			[
+				"infor",
+				"magpie/page-information.hbs"
+			],
+			[
+				"ta",
+				"magpie/tag.hbs"
+			],
+			[
+				"prism-xonokai-ct.scss",
+				"magpie/assets/css/prism-themes/prism-xonokai-ct.scss"
+			],
+			[
+				"style",
+				"magpie/page-style-sheet.hbs"
+			],
+			[
+				"pris",
+				"magpie/assets/css/prism-themes/prism-xonokai-ct.scss"
+			],
+			[
+				"post",
+				"magpie/post.hbs"
+			],
+			[
+				"hoe",
+				"magpie/home.hbs"
+			],
+			[
+				"nav",
+				"magpie/partials/navigation.hbs"
+			],
+			[
+				"def",
+				"magpie/default.hbs"
+			],
+			[
+				"informat",
+				"magpie/page-information.hbs"
+			],
+			[
+				"arti",
+				"magpie/partials/article.hbs"
+			],
+			[
+				"group",
+				"magpie/assets/css/elements/group.scss"
+			],
+			[
+				"color",
+				"magpie/assets/css/color.scss"
+			],
+			[
+				"rs",
+				"magpie/assets/css/rs.reset.scss"
+			],
+			[
+				"pag",
+				"magpie/partials/pagination.hbs"
+			],
+			[
+				"rs.",
+				"magpie/assets/css/rs.reset.scss"
+			],
+			[
+				"flo",
+				"magpie/assets/css/flow.scss"
+			],
+			[
+				"fl",
+				"magpie/assets/css/flow.scss"
+			],
+			[
+				"reset",
+				"magpie/assets/css/rs.reset.scss"
+			],
+			[
+				"pagin",
+				"magpie/partials/pagination.hbs"
+			],
+			[
+				"medida",
+				"magpie/assets/css/media/widths.scss"
+			],
+			[
+				"foter",
+				"magpie/partials/footer-header.hbs"
+			],
+			[
+				"tags",
+				"magpie/partials/pagination.hbs"
+			],
+			[
+				"defa",
+				"magpie/default.hbs"
+			],
+			[
+				"docker",
+				"magpie-blog-alpine-ghost/docker-compose.yml"
+			],
+			[
+				"posts",
+				"magpie/post.hbs"
+			],
+			[
+				"scss",
+				"magpie/assets/css/flow.scss"
+			],
+			[
+				"book",
+				"upstream.io/bookmarks.md"
+			],
+			[
+				"todo",
+				"upstream.io/TODO.md"
+			],
+			[
+				"comp",
+				"competition.md"
+			],
+			[
+				"too",
+				"TODO.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
