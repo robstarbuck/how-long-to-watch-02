@@ -52,7 +52,6 @@ h1{
 	font-size: 1.5rem;
     white-space: nowrap;
     margin:1rem 0 4rem;
-    width: 200%;
 }
 h2{
     padding:1.2rem;
@@ -70,9 +69,14 @@ text.sub{
 .o-box{
     position: absolute;
     z-index: 100;
+    &.right-{
+        h1{
+            float: right;
+        }
+    }
 }
 .box{
-    background-color: red;
+    background-color: coral;
     width: 100%;
     position: relative;
     > ._{
@@ -81,7 +85,7 @@ text.sub{
     }
     &.small-{
         > ._{
-            color: red;
+            color: coral;
             display: table;
             bottom:0;
             h2{
@@ -91,7 +95,7 @@ text.sub{
         }  
     }
     
-    &.small-.left-{
+    .left- &.small-{
         > ._{
             padding-left: 100%;
             position: absolute;
@@ -101,7 +105,7 @@ text.sub{
             }
         }
     }
-    &.small-.right-{
+    .right- &.small-{
         > ._{
             padding-right: 100%;
             position: absolute;
@@ -119,7 +123,7 @@ text.sub{
     white-space: nowrap;
 }
 
-.box:after {
+.box:after,.cf:after {
   content: "";
   display: table;
   clear: both;

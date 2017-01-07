@@ -1,7 +1,10 @@
-left- and right- class should be added to the outer box
+TODO
+
+height shown as viewport
 
 DONE
 
-- Vertically distribute Hs
-- Vertically distribute boxes
-- Space inner headers
+left- and right- class should be added to the outer box
+Vertically distribute Hs
+Vertically distribute boxes
+Space inner headers

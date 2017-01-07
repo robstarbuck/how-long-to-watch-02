@@ -108,9 +108,8 @@ var groups = body
     .data(pack(seriesdata).filter(function(d){return !d.children}))
     .enter()
     .append("g").sort(function(x,y){
-//    console.log(x,y);
-    return d3.ascending(x.y, y.y)
-});
+        return d3.ascending(x.y, y.y)
+    });
 
 
 var minh = 0;
@@ -132,7 +131,13 @@ groups.each(function(d,i){
             .style("left", function() {return d.x - d.r + "px"; })
             .style("top", function() {return addit + "px"; })
             .style("z-index", 100 -i)
-            .attr("class", "o-box");
+            .call(function(ob){ 
+                if(d.x - d.r > winWidth / 2){
+                    ob.attr("class","right- o-box");
+                }else{   
+                    ob.attr("class","left- o-box");
+                };
+            });
     
     outer.append("div")
         .attr("class", "box")
@@ -141,11 +146,7 @@ groups.each(function(d,i){
         .html(cteHtml(d))
         .call(function(ob){
             if(ob.node().offsetHeight < minh){
-                if(d.x - d.r > winWidth / 2){
-                    ob.attr("class","right- small- box");
-                }else{   
-                    ob.attr("class","left- small- box");
-                }
+                ob.attr("class","small- box");
             };
         });
     
