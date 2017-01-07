@@ -90,14 +90,14 @@ text.sub {
   .box.small- > ._ {
     color: red;
     display: table;
-    padding: 0 100%;
     bottom: 0; }
-    /* line 88, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+    /* line 87, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
     .box.small- > ._ h2 {
       display: table-cell;
       padding: 0; }
-  /* line 96, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  /* line 95, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
   .box.small-.left- > ._ {
+    padding-left: 100%;
     position: absolute;
     left: 0; }
     /* line 99, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
@@ -105,18 +105,19 @@ text.sub {
       padding-left: 0.8rem; }
   /* line 105, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
   .box.small-.right- > ._ {
+    padding-right: 100%;
     position: absolute;
     right: 0; }
-    /* line 108, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+    /* line 109, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
     .box.small-.right- > ._ h2 {
       padding-right: 0.8rem; }
 
-/* line 115, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 116, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 .days,
 .hours {
   white-space: nowrap; }
 
-/* line 121, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 122, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 .box:after {
   content: "";
   display: table;

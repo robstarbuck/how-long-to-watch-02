@@ -83,7 +83,6 @@ text.sub{
         > ._{
             color: red;
             display: table;
-            padding: 0 100%;
             bottom:0;
             h2{
                 display: table-cell;
@@ -94,6 +93,7 @@ text.sub{
     
     &.small-.left-{
         > ._{
+            padding-left: 100%;
             position: absolute;
             left: 0;
             h2{
@@ -103,6 +103,7 @@ text.sub{
     }
     &.small-.right-{
         > ._{
+            padding-right: 100%;
             position: absolute;
             right: 0;
             h2{

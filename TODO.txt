@@ -1,6 +1,7 @@
-- Vertically distribute Hs
+left- and right- class should be added to the outer box
 
 DONE
 
+- Vertically distribute Hs
 - Vertically distribute boxes
 - Space inner headers
