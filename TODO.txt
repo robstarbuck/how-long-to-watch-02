@@ -1,9 +1,10 @@
 TODO
 
-height shown as viewport
+Height shown as viewport
 
 DONE
 
+Render scene without groups
 left- and right- class should be added to the outer box
 Vertically distribute Hs
 Vertically distribute boxes

@@ -9,6 +9,8 @@
 
 function cteHtml(d){
     
+    console.log(d);
+    
     let a = ["<div class='_'>"];
     
     if(d.duration[0] > 0){
@@ -59,10 +61,8 @@ var seriesdata = {
 
 var arrdaysInMonth = [30,10];
 
-var subTextOffset = 25;
-
 var totalHours = function(array){
-    return array[0]*24 + array[1];
+    return array[0] * 24 + array[1];
 }
 
 var pluralise = function(val){
@@ -105,58 +105,67 @@ seriesdata.children.sort(function(a,b){
 });
 
 var groups = body
-    .data(pack(seriesdata).filter(function(d){return !d.children}))
-    .enter()
-    .append("g").sort(function(x,y){
-        return d3.ascending(x.y, y.y)
-    });
-
+    .data(pack(seriesdata));
 
 var minh = 0;
 var addit = 100;
 
+// Used to grab the minh value to determine what can fit in a square
 body.append("div")
     .style("opacity","0")
     .html(cteHtml({duration:[10,10]}))
     .call(function(ob){
         minh = ob.node().offsetHeight;
+        ob.remove();
     });
 
-//NOTE: http://stackoverflow.com/questions/24827589/d3-appending-html-to-nodes
+//console.log(gropus);
 
-groups.each(function(d,i){    
-    
-    let outer = body.append("div")
-            .style("width", function() {return d.r * 2 + "px"; })
-            .style("left", function() {return d.x - d.r + "px"; })
-            .style("top", function() {return addit + "px"; })
-            .style("z-index", 100 -i)
-            .call(function(ob){ 
-                if(d.x - d.r > winWidth / 2){
-                    ob.attr("class","right- o-box");
-                }else{   
-                    ob.attr("class","left- o-box");
-                };
-            });
-    
-    outer.append("div")
+var outer = 
+    body
+    .selectAll("div")
+    .data(pack(seriesdata))
+    .enter()
+    .append("div")
+        .filter(function(d) { return !d.children })
+        .style("width", function(d) {return d.r * 2 + "px"; })
+        .style("left", function(d) {return d.x - d.r + "px"; })
+        .style("top", 0+'px')
+    //    .style("z-index", 100)
+        .each(function(d){
+            var ob = d3.select(this);
+            if(d.x - d.r > winWidth / 2){
+                ob.attr("class","right- o-box");
+            }else{   
+                ob.attr("class","left- o-box");
+            };
+        }).append("div")
         .attr("class", "box")
         .attr('pointer-events', 'none')
-        .style("height", function() {return (d.r * 2) + "px"; })
-        .html(cteHtml(d))
-        .call(function(ob){
-            if(ob.node().offsetHeight < minh){
-                ob.attr("class","small- box");
+        .style("height", function(d) {return (d.r * 2) + "px"; })
+        .html(function(d){return cteHtml(d)})
+        .each(function(){    
+            if(this.offsetHeight < minh){
+                d3.select(this).attr("class","small- box");
             };
         });
     
+outer.each(function(o,i){
     
-    outer.append("div")
-        .html("<h1 class='title'>" + d.name + "</h1>");
-
-    outer.call(function(ob){
-        console.log(ob.node().offsetHeight);
-        addit = addit + ob.node().offsetHeight;
+    let p = this.parentNode;
+    
+    d3.select(p).append("div")
+        .html(function(d){return "<h1 class='title'>" + d.name + "</h1>";});
+    
+    d3.select(p).call(function(ob){
+         
+        this.style("top",addit+'px');
+        
+        addit = addit + p.offsetHeight;
+        
+        console.log(addit,i);
+        
+        
     });
 
-})
+});
