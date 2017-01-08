@@ -81,6 +81,8 @@ var winWidth = window.innerWidth;
 
 var winHeight = window.innerHeight;
 
+var winRatio = winHeight / winWidth;
+
 var body = d3.select("body");
 
 var pack = d3.layout.pack()
@@ -142,7 +144,7 @@ var outer =
         }).append("div")
         .attr("class", "box")
         .attr('pointer-events', 'none')
-        .style("height", function(d) {return (d.r * 2) + "px"; })
+        .style("height", function(d) {return d.r * 2 * winRatio + "px"; })
         .html(function(d){return cteHtml(d)})
         .each(function(){    
             if(this.offsetHeight < minh){
