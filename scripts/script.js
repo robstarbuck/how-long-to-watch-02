@@ -34,16 +34,18 @@
         return a.join('');
 
     }
-    
+
     var arrdaysInMonth = [30, 10];
 
-    var winWidth = window.innerWidth;
-
-    var winHeight = window.innerHeight;
+    var winWidth = window.innerWidth,
+        winHeight = window.innerHeight;
 
     var winRatio = winHeight / winWidth;
 
-    d3.json('data.json',function(er,seriesdata){
+    d3.json('data.json', function(er, seriesdata) {
+
+        var minh = 0,
+            addit = 0;
 
         var main = d3.select("main");
 
@@ -68,11 +70,7 @@
             return b.hours - a.hours;
         });
 
-        var groups = main
-            .data(pack(seriesdata));
-
-        var minh = 0;
-        var addit = 0;
+        main.data(pack(seriesdata));
 
         // Used to grab the minh value to determine what can fit in a square
         main.append("div")
@@ -85,10 +83,8 @@
                 ob.remove();
             });
 
-        //console.log(gropus);
 
-        var outer =
-            main
+        var outer = main
             .selectAll("div")
             .data(pack(seriesdata))
             .enter()
@@ -146,5 +142,4 @@
 
         });
     });
-    
 }());
