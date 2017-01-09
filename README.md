@@ -21,3 +21,5 @@ chmod +x .git/hooks/post-commit
 - http://stackoverflow.com/questions/5084100/post-commit-hook-not-running
 
 - test
+
+- About Beautify https://github.com/brackets-beautify/brackets-beautify

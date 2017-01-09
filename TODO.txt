@@ -2,9 +2,11 @@
 
 # TODO
 
+Code Review
 
 # DONE
 
+Tidy up
 Iconmoon font
 Github top right
 Add magpie footer 

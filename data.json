@@ -1,0 +1,84 @@
+{
+    "name": "THOUSAND",
+    "hours": 10000,
+    "children": [{
+        "name": "24",
+        "duration": [6, 2]
+    }, {
+        "name": "30 Rock",
+        "duration": [2, 2]
+    }, {
+        "name": "Arrested Development",
+        "duration": [1, 1]
+    }, {
+        "name": "Battlestar Galactica",
+        "duration": [2, 9]
+    }, {
+        "name": "Breaking Bad",
+        "duration": [1, 2]
+    }, {
+        "name": "Curb Your Enthusiasm",
+        "duration": [1, 6]
+    }, {
+        "name": "Downton Abbey",
+        "duration": [1, 7]
+    }, {
+        "name": "Freaks And Geeks",
+        "duration": [0, 14]
+    }, {
+        "name": "Game Of Thrones",
+        "duration": [1, 6]
+    }, {
+        "name": "Homeland",
+        "duration": [1, 3]
+    }, {
+        "name": "House Of Cards",
+        "duration": [0, 22]
+    }, {
+        "name": "How I Met Your Mother",
+        "duration": [3, 2]
+    }, {
+        "name": "Its Always Sunny In Philadelphia",
+        "alias": "IASIP",
+        "duration": [1, 4]
+    }, {
+        "name": "Lost",
+        "duration": [3, 8]
+    }, {
+        "name": "Mad Men",
+        "duration": [2, 9]
+    }, {
+        "name": "Modern Family",
+        "duration": [1, 9]
+    }, {
+        "name": "Parks And Recreation",
+        "duration": [1, 8]
+    }, {
+        "name": "Scandal",
+        "duration": [1, 8]
+    }, {
+        "name": "Sherlock",
+        "duration": [0, 14]
+    }, {
+        "name": "The Big Bang Theory",
+        "duration": [2, 3]
+    }, {
+        "name": "The Good Wife",
+        "duration": [3, 7]
+    }, {
+        "name": "The Oc",
+        "duration": [2, 9]
+    }, {
+        "name": "The Walking Dead",
+        "duration": [1, 5]
+    }, {
+        "name": "The West Wing",
+        "duration": [4, 0]
+    }, {
+        "name": "The Wire",
+        "duration": [2, 2]
+    }, {
+        "name": "The Sopranoes",
+        "duration": [3, 14]
+    }]
+}
