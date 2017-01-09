@@ -2,10 +2,10 @@
 
 # TODO
 
-Code Review
 
 # DONE
 
+Code Review
 Tidy up
 Iconmoon font
 Github top right
