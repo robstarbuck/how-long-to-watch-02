@@ -1,0 +1,39 @@
+// ALIAS grp
+.grp{
+
+	clear:both;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+	%grp-_ {
+  		display:table;
+		width: 100%;
+		border-spacing: 2rem 0;
+		table-layout: fixed;
+	}
+	
+	%grp-__ {
+		vertical-align: top;
+		position: relative;
+		display:table-cell;
+	}
+
+	
+	> div,
+	{
+		@extend %grp-_;
+		> div,
+		{
+			@extend %grp-__;
+		}
+	}
+
+	> ul,
+	{
+		@extend %grp-_;
+		> li,
+		{
+			@extend %grp-__;
+		}
+	}
+}

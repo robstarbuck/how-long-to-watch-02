@@ -1,0 +1,18 @@
+/* line 2, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/elements/group.scss */
+.grp {
+  clear: both;
+  margin-left: -2rem;
+  margin-right: -2rem; }
+  /* line 8, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/elements/group.scss */
+  .grp > div, .grp > ul {
+    display: table;
+    width: 100%;
+    border-spacing: 2rem 0;
+    table-layout: fixed; }
+  /* line 15, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/elements/group.scss */
+  .grp > div > div, .grp > ul > li {
+    vertical-align: top;
+    position: relative;
+    display: table-cell; }
+
+/*# sourceMappingURL=group.css.map */

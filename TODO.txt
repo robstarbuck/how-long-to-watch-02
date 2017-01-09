@@ -5,6 +5,11 @@
 
 # DONE
 
+Iconmoon font
+Github top right
+Add magpie footer 
+Space start based on heading height
+Label up a month
 Height shown as viewport
 Render scene without groups
 left- and right- class should be added to the outer box

@@ -1,128 +1,177 @@
-/* line 1, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 2, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/elements/group.scss */
+.grp {
+  clear: both;
+  margin-left: -2rem;
+  margin-right: -2rem; }
+  /* line 8, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/elements/group.scss */
+  .grp > div, .grp > ul {
+    display: table;
+    width: 100%;
+    border-spacing: 2rem 0;
+    table-layout: fixed; }
+  /* line 15, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/elements/group.scss */
+  .grp > div > div, .grp > ul > li {
+    vertical-align: top;
+    position: relative;
+    display: table-cell; }
+
+/* line 7, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 html, body {
   font-size: 10px;
   padding: 0;
   margin: 0;
   font-family: 'Arial'; }
 
-/* line 7, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 13, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 body {
   background-color: white; }
 
-/* line 12, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 18, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 22, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+main {
+  position: relative; }
+
+/* line 25, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 header, footer {
-  position: absolute;
   z-index: 1;
   padding: 2rem;
   box-sizing: border-box; }
 
-/* line 19, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
-header {
-  top: 0;
-  left: 0; }
-  /* line 22, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
-  header h1 {
-    font-size: 3rem; }
-
-/* line 26, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
-footer {
-  right: 0;
-  bottom: 0; }
-
-/* SVG SPECIFIC */
 /* line 32, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
-svg {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%; }
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem; }
 
-/* line 39, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
-svg circle.main {
-  fill: transparent; }
-
-/* line 42, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
-svg circle.child {
-  fill: transparent;
-  /*opacity: 0.25;*/ }
-
-/* line 46, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
-h1, text {
+/* line 36, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+header h2 {
+  padding: 0;
   font-weight: bold;
-  font-size: 10px;
-  font-family: sans-serif; }
+  color: #59A47E; }
 
-/* line 51, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 43, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 h1 {
   font-size: 1.5rem;
-  white-space: nowrap;
-  margin: 1rem 0 4rem; }
+  margin: 0 0 4rem; }
 
-/* line 56, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 47, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 h2 {
   padding: 1.2rem;
   margin: 0;
-  font-size: 1.2rem;
   font-weight: normal;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 1.2rem; }
 
-/* line 63, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 54, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 text.sub {
   font-weight: normal; }
 
-/* line 69, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 60, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 .o-box {
   position: absolute;
   z-index: 100; }
-  /* line 73, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  /* line 63, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  .o-box h1 {
+    white-space: nowrap; }
+  /* line 67, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
   .o-box.right- h1 {
     float: right; }
 
-/* line 78, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 72, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 .box {
-  background-color: coral;
+  background-color: #59A47E;
+  margin-bottom: 1rem;
   width: 100%;
   position: relative; }
-  /* line 82, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  /* line 77, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
   .box > ._ {
     color: white;
     box-sizing: border-box; }
-  /* line 87, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  /* line 82, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
   .box.small- > ._ {
-    color: coral;
+    color: #59A47E;
     display: table;
     bottom: 0; }
-    /* line 91, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+    /* line 86, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
     .box.small- > ._ h2 {
       display: table-cell;
       padding: 0; }
-  /* line 99, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  /* line 94, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
   .left- .box.small- > ._ {
     padding-left: 100%;
     position: absolute;
     left: 0; }
-    /* line 103, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+    /* line 98, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
     .left- .box.small- > ._ h2 {
       padding-left: 0.8rem; }
-  /* line 109, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  /* line 104, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
   .right- .box.small- > ._ {
     padding-right: 100%;
     position: absolute;
     right: 0; }
-    /* line 113, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+    /* line 108, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
     .right- .box.small- > ._ h2 {
       padding-right: 0.8rem; }
 
-/* line 120, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 115, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 .days,
 .hours {
   white-space: nowrap; }
 
-/* line 126, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+/* line 121, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
 .box:after, .cf:after {
   content: "";
   display: table;
   clear: both; }
+
+/* line 126, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+footer {
+  background: #59A47E; }
+
+/* line 130, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+#hd-magpie {
+  width: 1.5rem; }
+  /* line 132, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  #hd-magpie img {
+    opacity: 0.25;
+    height: 1.5rem;
+    width: 1.5rem; }
+  /* line 137, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  #hd-magpie .icon {
+    font-size: 1.5rem; }
+
+/* line 141, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+.icon {
+  color: #59A47E; }
+
+/* line 145, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+#ft-magpie {
+  display: block; }
+  /* line 147, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  #ft-magpie:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 152, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  #ft-magpie ul {
+    float: right;
+    padding: 0 0 0.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    list-style-type: none; }
+    /* line 158, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+    #ft-magpie ul li {
+      display: inline-block;
+      padding-left: 2rem; }
+  /* line 163, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+  #ft-magpie img {
+    height: 1.5rem;
+    display: block; }
+
+/* line 168, /Users/robertstarbuck/Sites/how-long-to-watch-01/styles/style.scss */
+.of0 {
+  overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */

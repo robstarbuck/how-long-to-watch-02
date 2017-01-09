@@ -1,3 +1,9 @@
+@import 'ress';
+@import 'elements/group.scss';
+
+$clA: #59A47E;
+$clAa: rgba($clA,0.15);
+
 html,body{
 	font-size: 10px;
 	padding:0;
@@ -9,56 +15,41 @@ body{
 	background-color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
+main{
+    position: relative;
+}
 header,footer{
-	position: absolute;
 	z-index: 1;
 	padding: 2rem;
 //	width: 100%;
 	box-sizing: border-box;
 }
 header{
-	top:0;
-	left:0;
     h1{
         font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    h2{
+        padding:0;
+        font-weight: bold;
+        color:$clA;
     }
 }
-footer{
-	right:0;
-	bottom:0;
-}
 
-/* SVG SPECIFIC */
-svg{
-	top:0;
-	left:0;
-	position: absolute;
-	width:100%;
-	height:100%;
-}
-svg circle.main{
-	fill: transparent;
-}
-svg circle.child{
-	fill: transparent;
-	/*opacity: 0.25;*/
-}
-h1,text{
-	font-weight: bold;
-	font-size: 10px;
-	font-family: sans-serif;
-}
 h1{
 	font-size: 1.5rem;
-    white-space: nowrap;
-    margin:1rem 0 4rem;
+    margin:0 0 4rem;
 }
 h2{
     padding:1.2rem;
     margin:0;
-    font-size:1.2rem;
     font-weight: normal;
     box-sizing: border-box;
+    font-size:1.2rem;
 }
 text.sub{
 	font-weight: normal;
@@ -69,6 +60,9 @@ text.sub{
 .o-box{
     position: absolute;
     z-index: 100;
+    h1{
+        white-space: nowrap;
+    }
     &.right-{
         h1{
             float: right;
@@ -76,7 +70,8 @@ text.sub{
     }
 }
 .box{
-    background-color: coral;
+    background-color: $clA;
+    margin-bottom: 1rem;
     width: 100%;
     position: relative;
     > ._{
@@ -85,7 +80,7 @@ text.sub{
     }
     &.small-{
         > ._{
-            color: coral;
+            color: $clA;
             display: table;
             bottom:0;
             h2{
@@ -127,4 +122,49 @@ text.sub{
   content: "";
   display: table;
   clear: both;
+}
+footer{
+    background: $clA;
+}
+
+#hd-magpie{
+    width: 1.5rem;
+    img{
+        opacity: 0.25;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .icon{
+        font-size: 1.5rem;
+    }
+}
+.icon{
+    color: $clA;
+}
+
+#ft-magpie{
+    display: block;
+    &:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    ul{
+        float: right;
+        padding: 0 0 0.5rem;  
+        height: 1.5rem;
+        display: inline-block;
+        list-style-type: none;
+        li{
+            display: inline-block;
+            padding-left: 2rem;
+        }
+    }
+    img{
+        height: 1.5rem;
+        display: block;
+    }
+}
+.of0{
+    overflow: hidden;
 }

@@ -83,7 +83,7 @@ var winHeight = window.innerHeight;
 
 var winRatio = winHeight / winWidth;
 
-var body = d3.select("body");
+var main = d3.select("main");
 
 var pack = d3.layout.pack()
     .sort(null)
@@ -106,14 +106,14 @@ seriesdata.children.sort(function(a,b){
     return b.hours - a.hours;
 });
 
-var groups = body
+var groups = main
     .data(pack(seriesdata));
 
 var minh = 0;
-var addit = 100;
+var addit = 0;
 
 // Used to grab the minh value to determine what can fit in a square
-body.append("div")
+main.append("div")
     .style("opacity","0")
     .html(cteHtml({duration:[10,10]}))
     .call(function(ob){
@@ -124,7 +124,7 @@ body.append("div")
 //console.log(gropus);
 
 var outer = 
-    body
+    main
     .selectAll("div")
     .data(pack(seriesdata))
     .enter()
@@ -165,8 +165,7 @@ outer.each(function(o,i){
         
         addit = addit + p.offsetHeight;
         
-        console.log(addit,i);
-        
+        main.style("height",addit+'px');
         
     });
 
