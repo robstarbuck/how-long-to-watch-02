@@ -12,7 +12,7 @@ Had to use this to get the hook working
 chmod +x .git/hooks/post-commit
 ```
 
-## Sites
+## RESOURCES
 
 - http://brettterpstra.com/2012/09/26/github-tip-easily-sync-your-master-to-github-pages/
 
